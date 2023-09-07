@@ -1,0 +1,40 @@
+
+
+img {
+    width: 450px;
+}
+
+.imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.container_form {
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    
+}
+
+.buscador{
+    font-family: sans-serif;
+    font-size: 20px;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px 0 0px 10px;
+    text-align: center;
+}
+
+.container_button {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(255, 0, 0);
+    height: 44px;
+    border-radius: 0 10px 10px  0px;
+}
